@@ -6,14 +6,6 @@ development:
   username: roan
   password: Iphone4286
 
-test: &TEST
-  adapter: postgresql
-  encoding: utf8
-  database: todo_test
-  pool: 5
-  username: roan
-  password: Iphone4286
-
 production:
   adapter: postgresql
   encoding: utf8
